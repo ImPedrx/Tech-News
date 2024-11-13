@@ -1,0 +1,25 @@
+nav {
+    display: grid;
+    /* border:  1px solid black; */
+    grid-auto-flow: column;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+    
+}
+
+#nav1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 72px;
+    /* border: 1px solid var(--stroke-color); */
+    border-bottom: 1px solid var(--stroke-color);
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 8px;
+}
+
