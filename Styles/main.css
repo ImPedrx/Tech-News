@@ -1,0 +1,16 @@
+main {
+    display: grid;
+    border: 2px solid white; 
+    /* height: 430px; */
+    color: white;
+    /* gap: 16px; */
+}
+ 
+
+#app {
+    height: 100%;
+}
+
+ main > * {
+    border: 1px solid red;
+ }

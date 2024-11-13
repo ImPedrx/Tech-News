@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+}
+
+
+/* .grid-flow-col {
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    
+} */
+
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    
+}
+
+.imgM {
+    height: 100px;
+    grid-template-columns: ;
+
+}
