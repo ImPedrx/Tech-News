@@ -1,16 +1,81 @@
-main {
+#app {
     display: grid;
-    border: 2px solid white; 
-    /* height: 430px; */
+    /* border: 2px solid white;  */
+    height: 80vh;
     color: white;
-    /* gap: 16px; */
+    gap: 16px;
+    align-items: cen;
+    padding-top: 40px;
+    
 }
  
 
-#app {
+#app img {
     height: 100%;
+    border-radius: 5px;
 }
 
  main > * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
  }
+
+ #app figure:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 608px;
+    height: 416px;
+
+}
+
+#app figure:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 288px;
+    height: 200px;
+
+}
+
+#app figure:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 288px;
+    height: 200px;
+}
+
+#app figure:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 288px;
+    height: 200px;
+    position: relative;
+    bottom: 240px;
+}
+
+
+#app figure:nth-child(5) {
+
+    width: 288px;
+    height: 200px;
+    position: relative;
+    bottom: 240px;
+}
+
+
+
+.card {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(
+            180deg,
+            transparent 0%,
+            #020617 100%
+
+        );
+        top: 50%;
+    }
+}
