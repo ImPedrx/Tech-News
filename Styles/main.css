@@ -1,10 +1,10 @@
 #app {
     display: grid;
     /* border: 2px solid white;  */
-    height: 80vh;
+    height: 51vh;
     color: white;
     gap: 16px;
-    align-items: cen;
+    /* align-items: cen; */
     padding-top: 40px;
     
 }
@@ -48,7 +48,7 @@
     width: 288px;
     height: 200px;
     position: relative;
-    bottom: 264px;
+    bottom: 218px;
 }
 
 
@@ -57,7 +57,7 @@
     width: 288px;
     height: 200px;
     position: relative;
-    bottom: 264px;
+    bottom: 218px;
 }
 
 

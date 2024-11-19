@@ -1,0 +1,40 @@
+.barra {
+    margin-top: 80px;
+    border: 1px solid var(--stroke-color);
+}
+
+section {
+    color: var(--text-color-secondary);
+    font-size: 14px;
+}
+
+
+.semi-menu {
+    padding-top: 12px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.semi-menu img {
+    width: 13px;
+    /* gap: px; */
+    vertical-align: middle;
+    object-fit: cover;
+    /* padding-left: 20px; */
+}
+
+.semi-menu a {
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
+
+
+.fast {
+    display: flex;
+    padding-top: 24px;
+    gap: 16px;
+    justify-content: space-between;
+}
