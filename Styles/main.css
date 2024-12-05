@@ -1,6 +1,6 @@
 #app {
     display: grid;
-    /* border: 2px solid white;  */
+    border: 2px solid white; 
     height: 51vh;
     color: white;
     gap: 16px;
@@ -19,15 +19,16 @@
     /* border: 1px solid red; */
  }
 
- #app figure:nth-child(1) {
+ #app div:nth-child(1) {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 608px;
     height: 416px;
+    border: 1px solid red;
 
 }
 
-#app figure:nth-child(2) {
+#app div:nth-child(2) {
     grid-column-start: 2;
     grid-column-end: 3;
     width: 288px;
@@ -35,14 +36,14 @@
 
 }
 
-#app figure:nth-child(3) {
+#app div:nth-child(3) {
     grid-column-start: 3;
     grid-column-end: 4;
     width: 288px;
     height: 200px;
 }
 
-#app figure:nth-child(4) {
+#app div:nth-child(4) {
     grid-column-start: 2;
     grid-column-end: 3;
     width: 288px;
@@ -52,7 +53,7 @@
 }
 
 
-#app figure:nth-child(5) {
+#app div:nth-child(5) {
 
     width: 288px;
     height: 200px;
