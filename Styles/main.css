@@ -15,9 +15,6 @@
     border-radius: 5px;
 }
 
- main > * {
-    /* border: 1px solid red; */
- }
 
  #app figure:nth-child(1) {
     grid-column-start: 1;
