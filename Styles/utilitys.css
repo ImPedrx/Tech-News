@@ -2,25 +2,17 @@
     display: grid;
 }
 
-
-/* .grid-flow-col {
-    grid-auto-flow: column;
-    grid-template-columns: 1fr;
-    
-} */
-
-main {
-    grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
-    
+.gap-16 {
+    gap: 16px;
 }
 
-/* .imgM {
-    height: 100px;
-    grid-template-columns: ;
+.grid-flow-col {
+    grid-auto-flow: column;
+}
 
-} */
-
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
 
 .content-tag {
     display: inline-block;
@@ -35,7 +27,8 @@ main {
 
 
 .text-2xl {
-    font: var(--h1)
+    font: var(--h1);
+    color: var(--text-color-primary);
 }
 
 .text-xl {
@@ -45,8 +38,10 @@ main {
 .text-lg {
     font: var(--h3);
     text-align: left;
+    color: var(--text-color-primary);
 }
 
 .text-sm {
     font: var(--text-sm);
+    color: var(--text-color-primary);
 }
