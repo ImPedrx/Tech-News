@@ -1,70 +1,9 @@
-#app {
-    display: grid;
-    /* border: 2px solid white;  */
-    height: 80vh;
-    color: white;
-    gap: 16px;
-    align-items: cen;
-    padding-top: 40px;
-    
-}
- 
-
-#app img {
-    height: 100%;
-    border-radius: 5px;
-}
-
-
- #app figure:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    width: 608px;
-    height: 416px;
-
-}
-
-#app figure:nth-child(2) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    width: 288px;
-    height: 200px;
-
-}
-
-#app figure:nth-child(3) {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    width: 288px;
-    height: 200px;
-
-}
-
-#app figure:nth-child(4) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    width: 288px;
-    height: 200px;
-    position: relative;
-    bottom: 258px;
-    /* top: 25px; */
-}
-
-
-#app figure:nth-child(5) {
-
-    width: 288px;
-    height: 200px;
-    position: relative;
-    bottom: 258px;
-}
-
-
 
 .card {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    color: var(--text-color-primary);
     &::before {
         content: "";
         position: absolute;
@@ -81,6 +20,9 @@
         position: absolute;
         bottom: 0;
         padding: 24px;
+        &:has(.text-lg) {
+            padding: 12px;
+        }
         h2  {
             margin-top:  8px;
         }
