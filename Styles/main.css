@@ -1,7 +1,15 @@
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+    font:var(--text-span)
+    
+}
+
+
 
 .card {
     position: relative;
-    border-radius: 5px;
+    border-radius: 4px;
     overflow: hidden;
     color: var(--text-color-primary);
     &::before {
@@ -14,7 +22,7 @@
             #020617 100%
 
         );
-        top: 50%;
+        
     }
     figcaption {
         position: absolute;
@@ -28,4 +36,27 @@
         }
     }
     
+}
+
+#semana {
+
+    header a  {
+        justify-self: end;
+        align-items: center;
+        gap:  8px;
+        
+
+        span {
+            background-image: url(../Imagens/icons/arrow-right.svg);
+            width: 16px;
+            height: 16px;
+        }
+    }
+    &>div {
+        grid-template-columns: repeat(4, 292px);
+    }
+
+    img {
+        height: 160px;
+    }
 }
