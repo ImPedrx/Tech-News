@@ -1,7 +1,24 @@
 section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
-    font:var(--text-span)
+    font:var(--text-span);
+
+    a  {
+        justify-self: end;
+        align-items: center;
+        gap:  8px;
+
+        span {
+            background-image: url(../Imagens/icons/seta.svg);
+            width: 15px;
+            height: 13px;
+        }
+
+        &:hover span {
+            background-image: url(../Imagens/icons/seta.svg);
+            
+        }
+    }
     
 }
 
@@ -39,19 +56,9 @@ section header {
 }
 
 #semana {
+    font: var(--h3);
+    color: var(--text-color-primary);
 
-    header a  {
-        justify-self: end;
-        align-items: center;
-        gap:  8px;
-        
-
-        span {
-            background-image: url(../Imagens/icons/arrow-right.svg);
-            width: 16px;
-            height: 16px;
-        }
-    }
     &>div {
         grid-template-columns: repeat(4, 292px);
     }
@@ -59,4 +66,21 @@ section header {
     img {
         height: 160px;
     }
+
+    figure {
+        position: relative;
+        .content-tag {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        p { 
+            margin-top: 8px;
+            font-weight: 800;
+        }
+    }
+
+
+
 }
