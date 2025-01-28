@@ -22,7 +22,7 @@
     --h3: 800 14px/140% var(--font-family);
     --text-span: 600 14px/145% var(--font-family);
     --text: 400 16px/140% var(--font-family);
-    --text-sm: 400 16px/10% var(--font-family);
+    --text-sm: 400 14px/140% var(--font-family);
 
 }
 
@@ -65,5 +65,5 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     color: var(--text-color-primary);
-    box-shadow: 0px 4px 16px rgba(2, ,6 23, 0.251);
+    box-shadow: 0px 4px 16px rgba(2,6 23, 0.251);
 }

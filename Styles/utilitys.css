@@ -24,6 +24,7 @@ gap: 32px;
 
 .text-xl {
     font: var(--h2);
+    color: var(--text-color-primary);
 }
 
 .text-lg {
@@ -34,6 +35,17 @@ gap: 32px;
 
 .text-sm {
     font: var(--text-sm);
-    color: var(--text-color-primary);
+    color: var(--text-color-secondary);
+
 }
 
+
+#ia {
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+
+#more {
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
