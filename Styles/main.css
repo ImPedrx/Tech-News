@@ -23,6 +23,15 @@ section header {
 }
 
 
+#featured {
+    grid-area: featured;
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
 
 .card {
     position: relative;
@@ -56,6 +65,7 @@ section header {
 }
 
 #semana {
+    grid-area: semana;
     font: var(--h3);
     color: var(--text-color-primary);
 
@@ -80,7 +90,29 @@ section header {
             font-weight: 800;
         }
     }
+}
 
 
+/* #ia {
+    grid-area: ia;
+    color: var(--text-color-secondary);
+    text-decoration: none;
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    h3 {
+        margin-block : 8px 4px;
+    }
+
+} */
+
+#more {
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+
+aside {
+    grid-area: aside;
 
 }
