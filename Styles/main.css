@@ -1,3 +1,14 @@
+ #final {
+    display: grid;
+    grid-template-areas: 
+    "A B"
+    "A C"
+    "A C";
+    column-gap: 32px;
+    padding-top: 80px;
+    height: 856px;
+    width: 1216px;
+ }
 section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
@@ -24,7 +35,7 @@ section header {
 
 
 #featured {
-    grid-area: featured;
+    /* grid-area: featured; */
     img {
         height: 100%;
         object-fit: cover;
@@ -93,26 +104,33 @@ section header {
 }
 
 
-/* #ia {
-    grid-area: ia;
+#ia {
+    grid-area: A;
     color: var(--text-color-secondary);
     text-decoration: none;
-    width: 176px;
-    aspect-ratio: 1/1;
+    width: 696px;
     object-fit: cover;
 
     h3 {
         margin-block : 8px 4px;
     }
 
-} */
+}
 
 #more {
     color: var(--text-color-secondary);
     text-decoration: none;
+    grid-area: C;
+    width: 488px;
+    row-gap: ;
+
+    #lado {
+        display: inline;
+    }
 }
 
-aside {
-    grid-area: aside;
-
+#ads { 
+    grid-area: B;
+    padding-bottom: 32px;
 }
+ 
